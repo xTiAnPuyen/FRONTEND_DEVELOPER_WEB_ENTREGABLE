@@ -66,6 +66,105 @@
     </nav>
   </header>
 
+  
+<!-- Carrusel de imágenes -->
+<section id="galeria" class="galeria-section">
+  <div class="container">
+    <div class="text-center mb-4">
+      <span class="eyebrow">Conoce nuestra comunidad</span>
+      <h2>Aprendizaje que inspira</h2>
+      <p>Descubre nuestros espacios y experiencias educativas.</p>
+    </div>
+
+    <div id="carruselInstituto"
+         class="carousel slide carousel-fade"
+         data-bs-ride="carousel"
+         data-bs-interval="4000"
+         data-bs-pause="hover">
+
+      <!-- Indicadores inferiores -->
+      <div class="carousel-indicators">
+        <button type="button"
+                data-bs-target="#carruselInstituto"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Imagen 1"></button>
+
+        <button type="button"
+                data-bs-target="#carruselInstituto"
+                data-bs-slide-to="1"
+                aria-label="Imagen 2"></button>
+
+        <button type="button"
+                data-bs-target="#carruselInstituto"
+                data-bs-slide-to="2"
+                aria-label="Imagen 3"></button>
+      </div>
+
+      <!-- Imágenes -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1400&q=80"
+            class="d-block w-100 imagen-carrusel"
+            alt="Estudiantes en un campus educativo">
+
+          <div class="carousel-caption">
+            <h3>Una comunidad que aprende</h3>
+            <p>Crece junto a estudiantes con grandes metas.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80"
+            class="d-block w-100 imagen-carrusel"
+            alt="Estudiantes trabajando en equipo">
+
+          <div class="carousel-caption">
+            <h3>Aprendizaje colaborativo</h3>
+            <p>Comparte ideas y desarrolla nuevas habilidades.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80"
+            class="d-block w-100 imagen-carrusel"
+            alt="Persona estudiando con una computadora">
+
+          <div class="carousel-caption">
+            <h3>Conocimiento en acción</h3>
+            <p>Prepárate para los desafíos del futuro.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botón anterior -->
+      <button class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carruselInstituto"
+              data-bs-slide="prev"
+              aria-label="Imagen anterior">
+        <span class="carousel-control-prev-icon"
+              aria-hidden="true"></span>
+      </button>
+
+      <!-- Botón siguiente -->
+      <button class="carousel-control-next"
+              type="button"
+              data-bs-target="#carruselInstituto"
+              data-bs-slide="next"
+              aria-label="Imagen siguiente">
+        <span class="carousel-control-next-icon"
+              aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
   <main id="contenido">
 
     <!-- PORTADA PRINCIPAL -->

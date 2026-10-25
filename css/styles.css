@@ -110,6 +110,91 @@ select:focus-visible {
   padding: clamp(4rem, 8vw, 7.5rem) 0;
 }
 
+
+/* Sección del carrusel */
+.galeria-section {
+  padding: 70px 0;
+  background-color: #f3f6fa;
+}
+
+.galeria-section h2 {
+  color: #142b4a;
+  font-weight: 750;
+}
+
+.galeria-section p {
+  color: #667386;
+}
+
+#carruselInstituto {
+  max-width: 1050px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(20, 43, 74, 0.18);
+}
+
+.imagen-carrusel {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  filter: brightness(75%);
+}
+
+#carruselInstituto .carousel-caption {
+  bottom: 45px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+#carruselInstituto .carousel-caption h3 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 750;
+}
+
+#carruselInstituto .carousel-caption p {
+  color: #ffffff;
+  font-size: 1.05rem;
+}
+
+#carruselInstituto .carousel-control-prev,
+#carruselInstituto .carousel-control-next {
+  width: 10%;
+}
+
+#carruselInstituto .carousel-indicators button {
+  width: 11px;
+  height: 11px;
+  border: 0;
+  border-radius: 50%;
+}
+
+/* Adaptación a dispositivos móviles */
+@media (max-width: 768px) {
+  .galeria-section {
+    padding: 45px 0;
+  }
+
+  .imagen-carrusel {
+    height: 300px;
+  }
+
+  #carruselInstituto .carousel-caption {
+    right: 12%;
+    bottom: 25px;
+    left: 12%;
+  }
+
+  #carruselInstituto .carousel-caption h3 {
+    font-size: 1.25rem;
+  }
+
+  #carruselInstituto .carousel-caption p {
+    font-size: 0.85rem;
+  }
+}
+
+
 /* CSS Grid */
 .hero-grid {
   display: grid;
